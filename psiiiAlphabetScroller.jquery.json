@@ -1,0 +1,34 @@
+{
+  "name": "jquery-psiiiAlphabetScroller",
+  "version": "0.1.0",
+  "description": "A plugin to convert a given DOM-List into an mobile-scrollable-list including a nice A-Z scrollable sidebar list.",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "psiiiAlphabetScroller",
+    "jquery-psiiiAlphabetScroller",
+    "jquery-alphabetScroller",
+    "alphabetScroller"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquery-boilerplate/jquery-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jquery-boilerplate/jquery-boilerplate/issues"
+  },
+  "author": {
+    "name": "Toni Gurski",
+    "email": "tg@mandarin-medien.de",
+    "url": "https://github.com/MM-Psiiirus"
+  },
+  "homepage": "",
+  "contributors": [
+    {
+      "name": "Toni Gurski",
+      "email": "tg@mandarin-medien.de",
+      "url": "https://github.com/MM-Psiiirus"
+    }
+  ],
+  "license": "MIT"
+}

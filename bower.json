@@ -1,0 +1,19 @@
+{
+	"name": "jquery-psiiiAlphabetScroller",
+	"version": "0.1.0",
+	"homepage": "",
+	"authors": [
+		"Toni Gurski <tg@mandarin-medien.de>"
+	],
+	"description": "A plugin to convert a given DOM-List into an mobile-scrollable-list including a nice A-Z scollable sidebar list.",
+	"main": "src/jquery.psiiiAlphabetScroller.js",
+	"keywords": [
+		"jquery",
+		"plugin",
+		"psiiiAlphabetScroller",
+		"jquery-psiiiAlphabetScroller",
+		"jquery-alphabetScroller",
+	  	"alphabetScroller"
+	],
+	"license": "MIT"
+}

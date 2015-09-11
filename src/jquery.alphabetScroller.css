@@ -1,0 +1,62 @@
+.alphabetScroller_container {
+  position: relative;
+}
+.alphabetScroller_container .alphabetScroller_container_group .alphabetScroller_container_group_headline {
+  font-weight: bold;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 3px 0;
+  margin-bottom: 5px;
+}
+.alphabetScroller_container .alphabetScroller_sidebar_navi {
+  position: fixed;
+  right: -100px;
+  top: 50%;
+  -webkit-animation: slideout 0.5s forwards;
+  animation: slideout 0.5s forwards;
+}
+.alphabetScroller_container .alphabetScroller_sidebar_navi > div {
+  font-weight: bold;
+  min-height: 16px;
+  vertical-align: middle;
+  line-height: 16px;
+  min-width: 30px;
+  text-align: right;
+  font-size: 0.8em;
+}
+.alphabetScroller_container .alphabetScroller_sidebar_navi > div.active {
+  font-size: 2em;
+  min-height: 30px;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.alphabetScroller_container .alphabetScroller_sidebar_navi > div.next_active,
+.alphabetScroller_container .alphabetScroller_sidebar_navi > div.prev_active {
+  font-size: 1.3em;
+  min-height: 20px;
+  vertical-align: middle;
+  line-height: 20px;
+}
+@-webkit-keyframes slideout {
+  100% {
+    right: -100px;
+  }
+}
+@keyframes slideout {
+  100% {
+    right: -100px;
+  }
+}
+.alphabetScroller_container.sidebar-fixed-right .alphabetScroller_sidebar_navi {
+  -webkit-animation: slide 0.5s forwards;
+  animation: slide 0.5s forwards;
+}
+@-webkit-keyframes slide {
+  100% {
+    right: 10px;
+  }
+}
+@keyframes slide {
+  100% {
+    right: 10px;
+  }
+}
