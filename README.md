@@ -15,7 +15,7 @@ A plugin to convert a given DOM-List into an mobile-scrollable-list including a 
 2. Include plugin's code:
 
 	```html
-	<script src="src/jquery.boilerplate.min.js"></script>
+	<script src="src/jquery.psiiiAlphabetScroller.js"></script>
 	<link href="src/jquery.alphabetScroller.css" media="all" rel="stylesheet"/>
 	```
 
