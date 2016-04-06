@@ -37,8 +37,8 @@ The basic structure of the project is given in the following way:
 │   └── index.html
 ├── src/
 │   └── jquery.psiiiAlphabetScroller.js
-│   └── jquery.psiiiAlphabetScroller.css
-│   └── jquery.psiiiAlphabetScroller.less
+│   └── jquery.alphabetScroller.css
+│   └── jquery.alphabetScroller.less
 ├── .editorconfig
 ├── .gitignore
 └── package.json
